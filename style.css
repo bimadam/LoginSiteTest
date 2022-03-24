@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a { 
+    text-decoration: none;
+}
+input {
+    border-radius: 4px;
+    width: 540px;
+    height: 28px;
+}
+.page {
+    display: grid;
+    grid-template-rows: 10% 85% 5%;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+.title {
+    font-family: verdana;
+    font-size: 150%;
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+.box {
+    height: 60%;
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    top: 15%;
+    background-color: rgba(107, 107, 107, 0.295);
+    border-radius: 16px;
+}
+.boxtitle {
+    font-family: verdana;
+    font-size: 225%;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 7.5%;
+
+}
+.loginbox {
+    height: 75%;
+    width: 100%;
+    position: absolute;
+     top: 15%
+}
+.emailtitle  {
+    font-family: verdana;
+    font-size: 125%;
+    font-weight: bold;
+    position: absolute;
+    left: 15%;
+    top: 10%
+}
+.emailinput {
+    position: absolute;
+    left : 15%;
+    top: 16%;
+}
+.passwordtitle {
+    font-family: verdana;
+    font-size: 125%;
+    font-weight: bold;
+    position: absolute;
+    left: 15%;
+    top: 26%;
+}
+.passwordinput{
+    position: absolute;
+    left : 15%;
+    top: 32%;
+}
+.submit {
+    padding: 8px 40px;
+    font-size: 18px;
+    font-family: verdana;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    border-radius: 8px;
+}
+.forgotpass {
+    font-size: 115%;
+    font-family: verdana;
+    position: absolute;
+    top: 90%;
+    left: 37.5%;
+}
+.createacc  {
+    font-size: 115%;
+    font-family: verdana;
+    position: absolute;
+    top: 96%;
+    left: 28%;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
